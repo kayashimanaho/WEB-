@@ -113,8 +113,39 @@ a {
   font-size: 16px;
 }
 
+.prodction-group {
+  display: flex;
+  /*flex-flow: row wrap;*/
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
 .bg-1 {
+  background-image: url(img13/sketch.png);
+}
+.bg-2 {
   background-image: url(img13/websuku.png);
+}
+.bg-3 {
+  background-image: url(img13/write.png);
+}
+.bg-4 {
+  background-image: url(img13/webcamp.png);
+}
+.bg-5 {
+  background-image: url(img13/talk.png);
+}
+.bg-6 {
+  background-image: url(img13/webcamp-mother.png);
+}
+
+.prodction {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 768px) {
